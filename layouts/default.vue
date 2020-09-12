@@ -7,18 +7,30 @@
       <v-toolbar-title>Application</v-toolbar-title>
        <!-- Component Example -->
       <VuetifyLogo/>
+       <navBar/>         
     </v-app-bar>
-
+   
     <!-- Body -->
     <v-content light>
       <nuxt /> 
-      <calander/>
+     
     </v-content>
+    <breadcrumb/>
+    <avatar/>
+    <carousel/>
+     <carousel/>
+      <carousel/>
+       <carousel/>
+      
+
+    
     
     <!-- Footer -->
+   
     <v-footer color="indigo" app>
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
+    <footer/>
 
   </v-app>
 </template>
@@ -32,7 +44,8 @@ export default {}
     border: 1px solid;
   }
 
-   #inspire {
+ /* #inspire {
     background-color: white;
-  }
+    color: black;
+  }*/
 </style>
