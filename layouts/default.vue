@@ -12,6 +12,7 @@
     <!-- Body -->
     <v-content light>
       <nuxt /> 
+      <calander/>
     </v-content>
     
     <!-- Footer -->
