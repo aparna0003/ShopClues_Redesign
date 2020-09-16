@@ -3,7 +3,7 @@
   
     <v-content>
       It Worked!
-     <avatar/>
+     
       <breadCrumb/>
       <footer/>
     </v-content>
