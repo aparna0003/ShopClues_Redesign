@@ -28,7 +28,7 @@
   export default {
     data () {
       return {
-        dialog: false,
+        dialog: false, // to know when it has to dropdown or not
       }
     },
   }

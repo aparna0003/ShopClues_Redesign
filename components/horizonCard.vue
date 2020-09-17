@@ -7,7 +7,7 @@
       color="pink darken-2"
       dark
     >
-      <v-spacer></v-spacer>
+      <v-spacer></v-spacer> <!---to keep the three cards -->
 
       <v-icon>mdi-window-minimize</v-icon>
 
@@ -17,7 +17,7 @@
     </v-system-bar>
 
     <v-app-bar
-      dark
+      dark         <!-- to keep the card sdark--->
       color="pink"
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
@@ -33,7 +33,7 @@
 
     <v-container>
       <v-row dense>
-        <v-col cols="12">
+        <v-col cols="12">   <!--number of cards in one wroe using grid-->
           <v-card
             color="#385F73"
             dark
@@ -57,7 +57,7 @@
             :color="item.color"
             dark
           >
-            <div class="d-flex flex-no-wrap justify-space-between">
+            <div class="d-flex flex-no-wrap justify-space-between">   <!--about the text to be justified -->
               <div>
                 <v-card-title
                   class="headline"
@@ -86,9 +86,9 @@
   export default {
     data: () => ({
       items: [
-        {
+        {        <!--placing the pictures --> 
           color: '#1F7087',
-          src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
+          src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',   
           title: 'Supermodel',
           artist: 'Foster the People',
         },

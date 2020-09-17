@@ -1,14 +1,5 @@
-<template>
-  <img
-    class="VuetifyLogo"
-    alt="Vuetify Logo"
-    src="vuetify-logo.svg"
-  >
-</template>
+<v-spacer></v-spacer>
+<v-btn icon href="/fooRoute" target="_blank">
+  <v-icon>window</v-icon> Link Text
+</v-btn>
 
-<style>
-.VuetifyLogo {
-  height: 50px;
-  width: 50px;
-}
-</style>

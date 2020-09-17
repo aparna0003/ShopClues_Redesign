@@ -40,7 +40,7 @@
               </v-col>
               <v-col cols="12" sm="6">
                 <v-select
-                  :items="['0-17', '18-29', '30-54', '54+']"
+                  :items="['0-18', '18-29', '30-54', '54+']"
                   label="Age*"
                   required
                 ></v-select>
