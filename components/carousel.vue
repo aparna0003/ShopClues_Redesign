@@ -29,14 +29,14 @@
   export default {
     data () {
       return {
-        colors: [
+        colors: [  //series of colour changing to take place
           'indigo',
           'warning',
           'pink darken-2',
           'red lighten-1',
           'deep-purple accent-4',
         ],
-        slides: [
+        slides: [  // the text to be written on the slide
           'First',
           'Second',
           'Third',

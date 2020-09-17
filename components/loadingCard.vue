@@ -42,10 +42,10 @@
     <v-card-text>
       <v-chip-group
         v-model="selection"
-        active-class="deep-purple accent-4 white--text"
+        active-class="deep-purple accent-4 white--text"    
         column
       >
-        <v-chip>5:30PM</v-chip>
+        <v-chip>5:30PM</v-chip>   <!--button for selection of time and itts availability-->
 
         <v-chip>7:30PM</v-chip>
 
@@ -55,7 +55,7 @@
       </v-chip-group>
     </v-card-text>
 
-    <v-card-actions>
+    <v-card-actions>                <!--how the button would be when activated-->
       <v-btn
         color="deep-purple lighten-2"
         text
@@ -70,12 +70,12 @@
 <script>
   export default {
     data: () => ({
-      loading: false,
+      loading: false,    // to point the selection that can be done
       selection: 1,
     }),
 
     methods: {
-      reserve () {
+      reserve () {      // when they are reseved 
         this.loading = true
 
         setTimeout(() => (this.loading = false), 2000)
