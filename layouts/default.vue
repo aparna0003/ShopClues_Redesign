@@ -11,15 +11,17 @@
     </v-app-bar>
     v-but
 
-    <v-spacer></v-spacer>
-<v-btn icon href="/fooRoute" target="_blank">
-  <v-icon>window</v-icon> Link Text
-</v-btn>
+
 
    
     <!-- Body -->
     <v-content light>
       <nuxt /> 
+      <v-spacer></v-spacer>
+<v-btn icon href="/fooRoute" target="_blank">
+  <v-icon>window</v-icon> Link Text
+</v-btn>
+
      
     </v-content>
   

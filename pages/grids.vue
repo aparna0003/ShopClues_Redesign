@@ -6,11 +6,9 @@
         <v-row justify="center">
           <h1>How to stir fry chicken</h1>
         </v-row>
-         <form/>
-         <button/>
-         <activator/>
-         <grids/>
-         <button/>
+        
+        
+         
          <loadingCard/>
          
       </v-container>
